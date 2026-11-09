@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+:root {
+  --paper: #f6f3ec;
+  --surface: #fffdf8;
+  --ink: #1d2320;
+  --muted: #646b66;
+  --line: #ddd8cc;
+  --accent: #1f5f4a;
+  --accent-ink: #ffffff;
+  --accent-soft: #dcebe2;
+  --mark: #f6dd8b;
+  --mark-ink: #1d2320;
+  --warn-soft: #f7e7c8;
+  --warn-ink: #6b4a10;
+  --error-soft: #f6d9d4;
+  --error-ink: #7f2318;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #141816;
+    --surface: #1c211e;
+    --ink: #e9ebe6;
+    --muted: #a0a8a2;
+    --line: #333a35;
+    --accent: #7fcdae;
+    --accent-ink: #10201a;
+    --accent-soft: #24392f;
+    --mark: #e2c15c;
+    --mark-ink: #1d2320;
+    --warn-soft: #3b3120;
+    --warn-ink: #f0d49b;
+    --error-soft: #442722;
+    --error-ink: #f4bdb4;
+  }
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-surface: var(--surface);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-accent: var(--accent);
+  --color-accent-ink: var(--accent-ink);
+  --color-accent-soft: var(--accent-soft);
+  --color-mark: var(--mark);
+  --color-mark-ink: var(--mark-ink);
+  --color-warn-soft: var(--warn-soft);
+  --color-warn-ink: var(--warn-ink);
+  --color-error-soft: var(--error-soft);
+  --color-error-ink: var(--error-ink);
+  --font-display: Charter, "Iowan Old Style", Georgia, serif;
+  --font-sans: ui-sans-serif, -apple-system, "Segoe UI", sans-serif;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-sans);
+}

@@ -1,0 +1,13 @@
+# Only needed for training the volatility model.
+mlflow>=3.0
+pandas>=2.2
+scikit-learn>=1.5
+xgboost>=2.1
+yfinance>=0.2.50
+
+# Fine-tuning
+accelerate>=1.0
+datasets>=3.0
+mlx-lm>=0.28
+torch>=2.5
+transformers>=4.50

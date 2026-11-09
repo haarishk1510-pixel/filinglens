@@ -1,0 +1,76 @@
+{
+  "model": "filinglens-llm",
+  "paired_questions": 40,
+  "systems": {
+    "agent": {
+      "strict": {
+        "n": 40,
+        "rate": 0.775,
+        "ci95": [
+          0.625,
+          0.9
+        ]
+      },
+      "lenient": {
+        "n": 40,
+        "rate": 0.875,
+        "ci95": [
+          0.775,
+          0.975
+        ]
+      },
+      "no_answer": 0,
+      "median_seconds": 88.6,
+      "correct_when_all_figures_matched": {
+        "n": 14,
+        "correct": 11
+      },
+      "correct_when_figures_flagged": {
+        "n": 25,
+        "correct": 23
+      }
+    },
+    "single_pass": {
+      "strict": {
+        "n": 40,
+        "rate": 0.275,
+        "ci95": [
+          0.14937500000000004,
+          0.425
+        ]
+      },
+      "lenient": {
+        "n": 40,
+        "rate": 0.275,
+        "ci95": [
+          0.14937500000000004,
+          0.425
+        ]
+      },
+      "no_answer": 1,
+      "median_seconds": 83.4,
+      "correct_when_all_figures_matched": {
+        "n": 8,
+        "correct": 3
+      },
+      "correct_when_figures_flagged": {
+        "n": 12,
+        "correct": 8
+      }
+    }
+  },
+  "agent_minus_single_pass_strict": {
+    "difference": 0.5,
+    "ci95": [
+      0.325,
+      0.675
+    ]
+  },
+  "agent_minus_single_pass_lenient": {
+    "difference": 0.6,
+    "ci95": [
+      0.425,
+      0.775
+    ]
+  }
+}

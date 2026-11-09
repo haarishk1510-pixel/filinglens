@@ -1,0 +1,76 @@
+{
+  "model": "filinglens-llm",
+  "paired_questions": 40,
+  "systems": {
+    "agent": {
+      "strict": {
+        "n": 40,
+        "rate": 0.175,
+        "ci95": [
+          0.075,
+          0.3
+        ]
+      },
+      "lenient": {
+        "n": 40,
+        "rate": 0.425,
+        "ci95": [
+          0.275,
+          0.6
+        ]
+      },
+      "no_answer": 9,
+      "median_seconds": 200.39999999999998,
+      "correct_when_all_figures_matched": {
+        "n": 9,
+        "correct": 7
+      },
+      "correct_when_figures_flagged": {
+        "n": 21,
+        "correct": 10
+      }
+    },
+    "single_pass": {
+      "strict": {
+        "n": 40,
+        "rate": 0.2,
+        "ci95": [
+          0.075,
+          0.325
+        ]
+      },
+      "lenient": {
+        "n": 40,
+        "rate": 0.25,
+        "ci95": [
+          0.125,
+          0.4
+        ]
+      },
+      "no_answer": 6,
+      "median_seconds": 95.15,
+      "correct_when_all_figures_matched": {
+        "n": 8,
+        "correct": 3
+      },
+      "correct_when_figures_flagged": {
+        "n": 11,
+        "correct": 7
+      }
+    }
+  },
+  "agent_minus_single_pass_strict": {
+    "difference": -0.025,
+    "ci95": [
+      -0.175,
+      0.125
+    ]
+  },
+  "agent_minus_single_pass_lenient": {
+    "difference": 0.175,
+    "ci95": [
+      -0.025,
+      0.375
+    ]
+  }
+}

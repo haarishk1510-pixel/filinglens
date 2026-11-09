@@ -1,0 +1,1227 @@
+{
+  "date": "2026-11-09",
+  "filings": [
+    "AAPL",
+    "MSFT"
+  ],
+  "questions": {
+    "figure": 70,
+    "narrative": 22
+  },
+  "skipped": [
+    "aapl-deferred-revenue: no chunk matches its label rule",
+    "msft-competition-cloud: no chunk matches its label rule"
+  ],
+  "scopes": {
+    "one_filing": {
+      "overall": {
+        "keyword": {
+          "questions": 92,
+          "hit@1": {
+            "value": 0.18478260869565216,
+            "ci95": [
+              0.10869565217391304,
+              0.2608695652173913
+            ]
+          },
+          "hit@3": {
+            "value": 0.31521739130434784,
+            "ci95": [
+              0.22826086956521738,
+              0.41304347826086957
+            ]
+          },
+          "hit@5": {
+            "value": 0.41304347826086957,
+            "ci95": [
+              0.31521739130434784,
+              0.5108695652173914
+            ]
+          },
+          "hit@10": {
+            "value": 0.6086956521739131,
+            "ci95": [
+              0.5,
+              0.7065217391304348
+            ]
+          },
+          "mrr": 0.29141218081435477,
+          "latency_ms": {
+            "median": 0.2258119984617224,
+            "p95": 0.35219740075262973
+          }
+        },
+        "vector": {
+          "questions": 92,
+          "hit@1": {
+            "value": 0.33695652173913043,
+            "ci95": [
+              0.25,
+              0.43478260869565216
+            ]
+          },
+          "hit@3": {
+            "value": 0.4782608695652174,
+            "ci95": [
+              0.3804347826086957,
+              0.5869565217391305
+            ]
+          },
+          "hit@5": {
+            "value": 0.6086956521739131,
+            "ci95": [
+              0.5108695652173914,
+              0.7065217391304348
+            ]
+          },
+          "hit@10": {
+            "value": 0.6956521739130435,
+            "ci95": [
+              0.5978260869565217,
+              0.782608695652174
+            ]
+          },
+          "mrr": 0.4378752587991719,
+          "latency_ms": {
+            "median": 3.712187499331776,
+            "p95": 4.5767954989059945
+          }
+        },
+        "hybrid": {
+          "questions": 92,
+          "hit@1": {
+            "value": 0.30434782608695654,
+            "ci95": [
+              0.20652173913043478,
+              0.40217391304347827
+            ]
+          },
+          "hit@3": {
+            "value": 0.5652173913043478,
+            "ci95": [
+              0.4673913043478261,
+              0.6630434782608695
+            ]
+          },
+          "hit@5": {
+            "value": 0.7065217391304348,
+            "ci95": [
+              0.6086956521739131,
+              0.7934782608695652
+            ]
+          },
+          "hit@10": {
+            "value": 0.8043478260869565,
+            "ci95": [
+              0.717391304347826,
+              0.8804347826086957
+            ]
+          },
+          "mrr": 0.4620729813664597,
+          "latency_ms": {
+            "median": 4.9263954988418845,
+            "p95": 5.9835275995283155
+          }
+        },
+        "hybrid_rerank": {
+          "questions": 92,
+          "hit@1": {
+            "value": 0.41304347826086957,
+            "ci95": [
+              0.31521739130434784,
+              0.5108695652173914
+            ]
+          },
+          "hit@3": {
+            "value": 0.6304347826086957,
+            "ci95": [
+              0.532608695652174,
+              0.7282608695652174
+            ]
+          },
+          "hit@5": {
+            "value": 0.7065217391304348,
+            "ci95": [
+              0.6086956521739131,
+              0.7934782608695652
+            ]
+          },
+          "hit@10": {
+            "value": 0.8152173913043478,
+            "ci95": [
+              0.7282608695652174,
+              0.8913043478260869
+            ]
+          },
+          "mrr": 0.5379960317460317,
+          "latency_ms": {
+            "median": 1157.406041998911,
+            "p95": 1336.281915100335
+          }
+        }
+      },
+      "figure": {
+        "keyword": {
+          "questions": 70,
+          "hit@1": {
+            "value": 0.1,
+            "ci95": [
+              0.02857142857142857,
+              0.17142857142857143
+            ]
+          },
+          "hit@3": {
+            "value": 0.2571428571428571,
+            "ci95": [
+              0.15714285714285714,
+              0.35714285714285715
+            ]
+          },
+          "hit@5": {
+            "value": 0.37142857142857144,
+            "ci95": [
+              0.2714285714285714,
+              0.4857142857142857
+            ]
+          },
+          "hit@10": {
+            "value": 0.5714285714285714,
+            "ci95": [
+              0.45714285714285713,
+              0.6857142857142857
+            ]
+          },
+          "mrr": 0.22319727891156463
+        },
+        "vector": {
+          "questions": 70,
+          "hit@1": {
+            "value": 0.2571428571428571,
+            "ci95": [
+              0.15714285714285714,
+              0.35714285714285715
+            ]
+          },
+          "hit@3": {
+            "value": 0.4,
+            "ci95": [
+              0.2857142857142857,
+              0.5142857142857142
+            ]
+          },
+          "hit@5": {
+            "value": 0.5142857142857142,
+            "ci95": [
+              0.4,
+              0.6285714285714286
+            ]
+          },
+          "hit@10": {
+            "value": 0.6285714285714286,
+            "ci95": [
+              0.5142857142857142,
+              0.7428571428571429
+            ]
+          },
+          "mrr": 0.3585884353741497
+        },
+        "hybrid": {
+          "questions": 70,
+          "hit@1": {
+            "value": 0.2,
+            "ci95": [
+              0.11428571428571428,
+              0.3
+            ]
+          },
+          "hit@3": {
+            "value": 0.5,
+            "ci95": [
+              0.38571428571428573,
+              0.6285714285714286
+            ]
+          },
+          "hit@5": {
+            "value": 0.6428571428571429,
+            "ci95": [
+              0.5285714285714286,
+              0.7571428571428571
+            ]
+          },
+          "hit@10": {
+            "value": 0.7571428571428571,
+            "ci95": [
+              0.6571428571428571,
+              0.8571428571428571
+            ]
+          },
+          "mrr": 0.37737528344671195
+        },
+        "hybrid_rerank": {
+          "questions": 70,
+          "hit@1": {
+            "value": 0.3142857142857143,
+            "ci95": [
+              0.21428571428571427,
+              0.42857142857142855
+            ]
+          },
+          "hit@3": {
+            "value": 0.5285714285714286,
+            "ci95": [
+              0.4142857142857143,
+              0.6428571428571429
+            ]
+          },
+          "hit@5": {
+            "value": 0.6285714285714286,
+            "ci95": [
+              0.5142857142857142,
+              0.7428571428571429
+            ]
+          },
+          "hit@10": {
+            "value": 0.7714285714285715,
+            "ci95": [
+              0.6714285714285714,
+              0.857499999999998
+            ]
+          },
+          "mrr": 0.44755668934240367
+        }
+      },
+      "narrative": {
+        "keyword": {
+          "questions": 22,
+          "hit@1": {
+            "value": 0.45454545454545453,
+            "ci95": [
+              0.22727272727272727,
+              0.6818181818181818
+            ]
+          },
+          "hit@3": {
+            "value": 0.5,
+            "ci95": [
+              0.2727272727272727,
+              0.7272727272727273
+            ]
+          },
+          "hit@5": {
+            "value": 0.5454545454545454,
+            "ci95": [
+              0.3181818181818182,
+              0.7727272727272727
+            ]
+          },
+          "hit@10": {
+            "value": 0.7272727272727273,
+            "ci95": [
+              0.5454545454545454,
+              0.9090909090909091
+            ]
+          },
+          "mrr": 0.5084595959595959
+        },
+        "vector": {
+          "questions": 22,
+          "hit@1": {
+            "value": 0.5909090909090909,
+            "ci95": [
+              0.36363636363636365,
+              0.7727272727272727
+            ]
+          },
+          "hit@3": {
+            "value": 0.7272727272727273,
+            "ci95": [
+              0.5454545454545454,
+              0.9090909090909091
+            ]
+          },
+          "hit@5": {
+            "value": 0.9090909090909091,
+            "ci95": [
+              0.7727272727272727,
+              1.0
+            ]
+          },
+          "hit@10": {
+            "value": 0.9090909090909091,
+            "ci95": [
+              0.7727272727272727,
+              1.0
+            ]
+          },
+          "mrr": 0.6901515151515152
+        },
+        "hybrid": {
+          "questions": 22,
+          "hit@1": {
+            "value": 0.6363636363636364,
+            "ci95": [
+              0.4090909090909091,
+              0.8181818181818182
+            ]
+          },
+          "hit@3": {
+            "value": 0.7727272727272727,
+            "ci95": [
+              0.5909090909090909,
+              0.9090909090909091
+            ]
+          },
+          "hit@5": {
+            "value": 0.9090909090909091,
+            "ci95": [
+              0.7727272727272727,
+              1.0
+            ]
+          },
+          "hit@10": {
+            "value": 0.9545454545454546,
+            "ci95": [
+              0.8636363636363636,
+              1.0
+            ]
+          },
+          "mrr": 0.7315656565656566
+        },
+        "hybrid_rerank": {
+          "questions": 22,
+          "hit@1": {
+            "value": 0.7272727272727273,
+            "ci95": [
+              0.5454545454545454,
+              0.9090909090909091
+            ]
+          },
+          "hit@3": {
+            "value": 0.9545454545454546,
+            "ci95": [
+              0.8636363636363636,
+              1.0
+            ]
+          },
+          "hit@5": {
+            "value": 0.9545454545454546,
+            "ci95": [
+              0.8636363636363636,
+              1.0
+            ]
+          },
+          "hit@10": {
+            "value": 0.9545454545454546,
+            "ci95": [
+              0.8636363636363636,
+              1.0
+            ]
+          },
+          "mrr": 0.8257575757575757
+        }
+      },
+      "vs_vector": {
+        "keyword": {
+          "k": 5,
+          "difference": -0.1956521739130435,
+          "ci95": [
+            -0.30434782608695654,
+            -0.08668478260869714
+          ]
+        },
+        "vector": {
+          "k": 5,
+          "difference": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "hybrid": {
+          "k": 5,
+          "difference": 0.09782608695652174,
+          "ci95": [
+            -0.00027173913043476716,
+            0.20652173913043478
+          ]
+        },
+        "hybrid_rerank": {
+          "k": 5,
+          "difference": 0.09782608695652174,
+          "ci95": [
+            0.0,
+            0.1956521739130435
+          ]
+        }
+      },
+      "misses": {
+        "keyword": [
+          "aapl-accountsreceivablenetcurrent-2025",
+          "aapl-accountsreceivablenetcurrent-2026",
+          "aapl-assets-2025",
+          "aapl-assets-2026",
+          "aapl-costofgoodsandservicessold-2026",
+          "aapl-incometaxexpensebenefit-2026",
+          "aapl-inventorynet-2025",
+          "aapl-inventorynet-2026",
+          "aapl-liabilities-2025",
+          "aapl-liabilities-2026",
+          "aapl-netcashprovidedbyusedinoperatingactivities-2025",
+          "aapl-netcashprovidedbyusedinoperatingactivities-2026",
+          "aapl-netincomeloss-2025",
+          "aapl-netincomeloss-2026",
+          "aapl-paymentsforrepurchaseofcommonstock-2025",
+          "aapl-paymentsforrepurchaseofcommonstock-2026",
+          "aapl-paymentsofdividends-2025",
+          "aapl-paymentsofdividends-2026",
+          "aapl-paymentstoacquirepropertyplantandequipment-2025",
+          "aapl-paymentstoacquirepropertyplantandequipment-2026",
+          "msft-accountsreceivablenetcurrent-2025",
+          "msft-accountsreceivablenetcurrent-2026",
+          "msft-assets-2025",
+          "msft-assets-2026",
+          "msft-costofgoodsandservicessold-2025",
+          "msft-costofgoodsandservicessold-2026",
+          "msft-grossprofit-2025",
+          "msft-grossprofit-2026",
+          "msft-inventorynet-2025",
+          "msft-inventorynet-2026",
+          "msft-liabilities-2025",
+          "msft-liabilities-2026",
+          "msft-netincomeloss-2025",
+          "msft-netincomeloss-2026",
+          "msft-operatingincomeloss-2025",
+          "msft-operatingincomeloss-2026",
+          "msft-paymentsforrepurchaseofcommonstock-2025",
+          "msft-paymentsforrepurchaseofcommonstock-2026",
+          "msft-paymentstoacquirepropertyplantandequipment-2025",
+          "msft-paymentstoacquirepropertyplantandequipment-2026",
+          "msft-revenuefromcontractwithcustomerexcludingassessedtax-2025",
+          "msft-revenuefromcontractwithcustomerexcludingassessedtax-2026",
+          "msft-stockholdersequity-2025",
+          "msft-stockholdersequity-2026",
+          "aapl-manufacturing-locations",
+          "aapl-headcount",
+          "aapl-single-source",
+          "msft-headcount",
+          "msft-openai",
+          "msft-nation-state",
+          "msft-azure-growth",
+          "msft-unstarted-leases",
+          "msft-ai-risk",
+          "msft-dividends"
+        ],
+        "vector": [
+          "aapl-accountsreceivablenetcurrent-2025",
+          "aapl-accountsreceivablenetcurrent-2026",
+          "aapl-assets-2025",
+          "aapl-assets-2026",
+          "aapl-cashandcashequivalentsatcarryingvalue-2026",
+          "aapl-costofgoodsandservicessold-2026",
+          "aapl-liabilities-2025",
+          "aapl-liabilities-2026",
+          "aapl-netcashprovidedbyusedinoperatingactivities-2025",
+          "aapl-netcashprovidedbyusedinoperatingactivities-2026",
+          "aapl-netincomeloss-2025",
+          "aapl-netincomeloss-2026",
+          "aapl-operatingincomeloss-2025",
+          "aapl-operatingincomeloss-2026",
+          "aapl-paymentsforrepurchaseofcommonstock-2025",
+          "aapl-paymentsforrepurchaseofcommonstock-2026",
+          "aapl-paymentsofdividends-2025",
+          "aapl-paymentsofdividends-2026",
+          "aapl-paymentstoacquirepropertyplantandequipment-2025",
+          "aapl-paymentstoacquirepropertyplantandequipment-2026",
+          "aapl-stockholdersequity-2025",
+          "msft-accountsreceivablenetcurrent-2025",
+          "msft-accountsreceivablenetcurrent-2026",
+          "msft-costofgoodsandservicessold-2025",
+          "msft-costofgoodsandservicessold-2026",
+          "msft-liabilities-2025",
+          "msft-liabilities-2026",
+          "msft-netcashprovidedbyusedinoperatingactivities-2025",
+          "msft-netcashprovidedbyusedinoperatingactivities-2026",
+          "msft-paymentsforrepurchaseofcommonstock-2025",
+          "msft-paymentsforrepurchaseofcommonstock-2026",
+          "msft-paymentstoacquirepropertyplantandequipment-2025",
+          "msft-paymentstoacquirepropertyplantandequipment-2026",
+          "msft-stockholdersequity-2025",
+          "aapl-commercial-paper",
+          "msft-openai"
+        ],
+        "hybrid": [
+          "aapl-accountsreceivablenetcurrent-2025",
+          "aapl-assets-2025",
+          "aapl-assets-2026",
+          "aapl-inventorynet-2025",
+          "aapl-inventorynet-2026",
+          "aapl-liabilities-2026",
+          "aapl-netincomeloss-2025",
+          "aapl-netincomeloss-2026",
+          "aapl-paymentsforrepurchaseofcommonstock-2025",
+          "aapl-paymentsforrepurchaseofcommonstock-2026",
+          "aapl-paymentsofdividends-2026",
+          "aapl-paymentstoacquirepropertyplantandequipment-2025",
+          "aapl-paymentstoacquirepropertyplantandequipment-2026",
+          "msft-accountsreceivablenetcurrent-2025",
+          "msft-accountsreceivablenetcurrent-2026",
+          "msft-assets-2026",
+          "msft-inventorynet-2025",
+          "msft-inventorynet-2026",
+          "msft-liabilities-2026",
+          "msft-netincomeloss-2025",
+          "msft-netincomeloss-2026",
+          "msft-paymentsforrepurchaseofcommonstock-2025",
+          "msft-paymentsforrepurchaseofcommonstock-2026",
+          "msft-paymentstoacquirepropertyplantandequipment-2025",
+          "msft-paymentstoacquirepropertyplantandequipment-2026",
+          "aapl-headcount",
+          "msft-openai"
+        ],
+        "hybrid_rerank": [
+          "aapl-assets-2025",
+          "aapl-assets-2026",
+          "aapl-liabilities-2025",
+          "aapl-netincomeloss-2025",
+          "aapl-netincomeloss-2026",
+          "aapl-paymentsforrepurchaseofcommonstock-2025",
+          "aapl-paymentsforrepurchaseofcommonstock-2026",
+          "aapl-paymentsofdividends-2025",
+          "aapl-paymentsofdividends-2026",
+          "aapl-paymentstoacquirepropertyplantandequipment-2025",
+          "aapl-paymentstoacquirepropertyplantandequipment-2026",
+          "msft-accountsreceivablenetcurrent-2025",
+          "msft-accountsreceivablenetcurrent-2026",
+          "msft-assets-2025",
+          "msft-assets-2026",
+          "msft-costofgoodsandservicessold-2025",
+          "msft-costofgoodsandservicessold-2026",
+          "msft-inventorynet-2025",
+          "msft-inventorynet-2026",
+          "msft-liabilities-2025",
+          "msft-liabilities-2026",
+          "msft-paymentsforrepurchaseofcommonstock-2025",
+          "msft-paymentsforrepurchaseofcommonstock-2026",
+          "msft-paymentstoacquirepropertyplantandequipment-2025",
+          "msft-paymentstoacquirepropertyplantandequipment-2026",
+          "msft-revenuefromcontractwithcustomerexcludingassessedtax-2025",
+          "aapl-commercial-paper"
+        ]
+      }
+    },
+    "all_filings": {
+      "overall": {
+        "keyword": {
+          "questions": 92,
+          "hit@1": {
+            "value": 0.15217391304347827,
+            "ci95": [
+              0.08695652173913043,
+              0.22826086956521738
+            ]
+          },
+          "hit@3": {
+            "value": 0.2391304347826087,
+            "ci95": [
+              0.15217391304347827,
+              0.32608695652173914
+            ]
+          },
+          "hit@5": {
+            "value": 0.29347826086956524,
+            "ci95": [
+              0.20652173913043478,
+              0.391304347826087
+            ]
+          },
+          "hit@10": {
+            "value": 0.44565217391304346,
+            "ci95": [
+              0.34782608695652173,
+              0.5434782608695652
+            ]
+          },
+          "mrr": 0.2193797446514838,
+          "latency_ms": {
+            "median": 0.6523960000777151,
+            "p95": 0.9236938987669421
+          }
+        },
+        "vector": {
+          "questions": 92,
+          "hit@1": {
+            "value": 0.33695652173913043,
+            "ci95": [
+              0.25,
+              0.43478260869565216
+            ]
+          },
+          "hit@3": {
+            "value": 0.4782608695652174,
+            "ci95": [
+              0.3804347826086957,
+              0.5869565217391305
+            ]
+          },
+          "hit@5": {
+            "value": 0.6086956521739131,
+            "ci95": [
+              0.5108695652173914,
+              0.7065217391304348
+            ]
+          },
+          "hit@10": {
+            "value": 0.6956521739130435,
+            "ci95": [
+              0.5978260869565217,
+              0.782608695652174
+            ]
+          },
+          "mrr": 0.4378752587991719,
+          "latency_ms": {
+            "median": 4.877520499576349,
+            "p95": 5.747584749951784
+          }
+        },
+        "hybrid": {
+          "questions": 92,
+          "hit@1": {
+            "value": 0.2717391304347826,
+            "ci95": [
+              0.18478260869565216,
+              0.358695652173913
+            ]
+          },
+          "hit@3": {
+            "value": 0.5543478260869565,
+            "ci95": [
+              0.45652173913043476,
+              0.6521739130434783
+            ]
+          },
+          "hit@5": {
+            "value": 0.6413043478260869,
+            "ci95": [
+              0.5434782608695652,
+              0.7391304347826086
+            ]
+          },
+          "hit@10": {
+            "value": 0.7391304347826086,
+            "ci95": [
+              0.6521739130434783,
+              0.8260869565217391
+            ]
+          },
+          "mrr": 0.42716528640441687,
+          "latency_ms": {
+            "median": 5.978666500595864,
+            "p95": 7.1622750010647
+          }
+        },
+        "hybrid_rerank": {
+          "questions": 92,
+          "hit@1": {
+            "value": 0.41304347826086957,
+            "ci95": [
+              0.31521739130434784,
+              0.5108695652173914
+            ]
+          },
+          "hit@3": {
+            "value": 0.6195652173913043,
+            "ci95": [
+              0.5217391304347826,
+              0.717391304347826
+            ]
+          },
+          "hit@5": {
+            "value": 0.6956521739130435,
+            "ci95": [
+              0.5978260869565217,
+              0.782608695652174
+            ]
+          },
+          "hit@10": {
+            "value": 0.8043478260869565,
+            "ci95": [
+              0.717391304347826,
+              0.8804347826086957
+            ]
+          },
+          "mrr": 0.5335274327122154,
+          "latency_ms": {
+            "median": 1167.2261664989492,
+            "p95": 1297.9839597490354
+          }
+        }
+      },
+      "figure": {
+        "keyword": {
+          "questions": 70,
+          "hit@1": {
+            "value": 0.08571428571428572,
+            "ci95": [
+              0.02857142857142857,
+              0.15714285714285714
+            ]
+          },
+          "hit@3": {
+            "value": 0.14285714285714285,
+            "ci95": [
+              0.07142857142857142,
+              0.22857142857142856
+            ]
+          },
+          "hit@5": {
+            "value": 0.2,
+            "ci95": [
+              0.11428571428571428,
+              0.3
+            ]
+          },
+          "hit@10": {
+            "value": 0.37142857142857144,
+            "ci95": [
+              0.2714285714285714,
+              0.4857142857142857
+            ]
+          },
+          "mrr": 0.1459467120181406
+        },
+        "vector": {
+          "questions": 70,
+          "hit@1": {
+            "value": 0.2571428571428571,
+            "ci95": [
+              0.15714285714285714,
+              0.35714285714285715
+            ]
+          },
+          "hit@3": {
+            "value": 0.4,
+            "ci95": [
+              0.2857142857142857,
+              0.5142857142857142
+            ]
+          },
+          "hit@5": {
+            "value": 0.5142857142857142,
+            "ci95": [
+              0.4,
+              0.6285714285714286
+            ]
+          },
+          "hit@10": {
+            "value": 0.6285714285714286,
+            "ci95": [
+              0.5142857142857142,
+              0.7428571428571429
+            ]
+          },
+          "mrr": 0.3585884353741497
+        },
+        "hybrid": {
+          "questions": 70,
+          "hit@1": {
+            "value": 0.18571428571428572,
+            "ci95": [
+              0.1,
+              0.2857142857142857
+            ]
+          },
+          "hit@3": {
+            "value": 0.4714285714285714,
+            "ci95": [
+              0.35714285714285715,
+              0.5860714285714267
+            ]
+          },
+          "hit@5": {
+            "value": 0.5714285714285714,
+            "ci95": [
+              0.45714285714285713,
+              0.6857142857142857
+            ]
+          },
+          "hit@10": {
+            "value": 0.6714285714285714,
+            "ci95": [
+              0.5571428571428572,
+              0.7857142857142857
+            ]
+          },
+          "mrr": 0.3425736961451247
+        },
+        "hybrid_rerank": {
+          "questions": 70,
+          "hit@1": {
+            "value": 0.3142857142857143,
+            "ci95": [
+              0.21428571428571427,
+              0.42857142857142855
+            ]
+          },
+          "hit@3": {
+            "value": 0.5142857142857142,
+            "ci95": [
+              0.4,
+              0.6285714285714286
+            ]
+          },
+          "hit@5": {
+            "value": 0.6142857142857143,
+            "ci95": [
+              0.5,
+              0.7285714285714285
+            ]
+          },
+          "hit@10": {
+            "value": 0.7571428571428571,
+            "ci95": [
+              0.6571428571428571,
+              0.8571428571428571
+            ]
+          },
+          "mrr": 0.4416836734693878
+        }
+      },
+      "narrative": {
+        "keyword": {
+          "questions": 22,
+          "hit@1": {
+            "value": 0.36363636363636365,
+            "ci95": [
+              0.18181818181818182,
+              0.5909090909090909
+            ]
+          },
+          "hit@3": {
+            "value": 0.5454545454545454,
+            "ci95": [
+              0.3181818181818182,
+              0.7727272727272727
+            ]
+          },
+          "hit@5": {
+            "value": 0.5909090909090909,
+            "ci95": [
+              0.36363636363636365,
+              0.7727272727272727
+            ]
+          },
+          "hit@10": {
+            "value": 0.6818181818181818,
+            "ci95": [
+              0.5,
+              0.8636363636363636
+            ]
+          },
+          "mrr": 0.45303030303030306
+        },
+        "vector": {
+          "questions": 22,
+          "hit@1": {
+            "value": 0.5909090909090909,
+            "ci95": [
+              0.36363636363636365,
+              0.7727272727272727
+            ]
+          },
+          "hit@3": {
+            "value": 0.7272727272727273,
+            "ci95": [
+              0.5454545454545454,
+              0.9090909090909091
+            ]
+          },
+          "hit@5": {
+            "value": 0.9090909090909091,
+            "ci95": [
+              0.7727272727272727,
+              1.0
+            ]
+          },
+          "hit@10": {
+            "value": 0.9090909090909091,
+            "ci95": [
+              0.7727272727272727,
+              1.0
+            ]
+          },
+          "mrr": 0.6901515151515152
+        },
+        "hybrid": {
+          "questions": 22,
+          "hit@1": {
+            "value": 0.5454545454545454,
+            "ci95": [
+              0.36363636363636365,
+              0.7272727272727273
+            ]
+          },
+          "hit@3": {
+            "value": 0.8181818181818182,
+            "ci95": [
+              0.6363636363636364,
+              0.9545454545454546
+            ]
+          },
+          "hit@5": {
+            "value": 0.8636363636363636,
+            "ci95": [
+              0.6818181818181818,
+              1.0
+            ]
+          },
+          "hit@10": {
+            "value": 0.9545454545454546,
+            "ci95": [
+              0.8636363636363636,
+              1.0
+            ]
+          },
+          "mrr": 0.6963203463203463
+        },
+        "hybrid_rerank": {
+          "questions": 22,
+          "hit@1": {
+            "value": 0.7272727272727273,
+            "ci95": [
+              0.5454545454545454,
+              0.9090909090909091
+            ]
+          },
+          "hit@3": {
+            "value": 0.9545454545454546,
+            "ci95": [
+              0.8636363636363636,
+              1.0
+            ]
+          },
+          "hit@5": {
+            "value": 0.9545454545454546,
+            "ci95": [
+              0.8636363636363636,
+              1.0
+            ]
+          },
+          "hit@10": {
+            "value": 0.9545454545454546,
+            "ci95": [
+              0.8636363636363636,
+              1.0
+            ]
+          },
+          "mrr": 0.8257575757575757
+        }
+      },
+      "vs_vector": {
+        "keyword": {
+          "k": 5,
+          "difference": -0.31521739130434784,
+          "ci95": [
+            -0.42391304347826086,
+            -0.20652173913043478
+          ]
+        },
+        "vector": {
+          "k": 5,
+          "difference": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "hybrid": {
+          "k": 5,
+          "difference": 0.03260869565217391,
+          "ci95": [
+            -0.07608695652173914,
+            0.13043478260869565
+          ]
+        },
+        "hybrid_rerank": {
+          "k": 5,
+          "difference": 0.08695652173913043,
+          "ci95": [
+            -0.00027173913043476716,
+            0.17391304347826086
+          ]
+        }
+      },
+      "misses": {
+        "keyword": [
+          "aapl-accountsreceivablenetcurrent-2025",
+          "aapl-accountsreceivablenetcurrent-2026",
+          "aapl-assets-2025",
+          "aapl-assets-2026",
+          "aapl-costofgoodsandservicessold-2025",
+          "aapl-costofgoodsandservicessold-2026",
+          "aapl-incometaxexpensebenefit-2026",
+          "aapl-inventorynet-2025",
+          "aapl-inventorynet-2026",
+          "aapl-liabilities-2025",
+          "aapl-liabilities-2026",
+          "aapl-netcashprovidedbyusedinoperatingactivities-2025",
+          "aapl-netcashprovidedbyusedinoperatingactivities-2026",
+          "aapl-netincomeloss-2025",
+          "aapl-netincomeloss-2026",
+          "aapl-operatingincomeloss-2025",
+          "aapl-operatingincomeloss-2026",
+          "aapl-paymentsforrepurchaseofcommonstock-2025",
+          "aapl-paymentsforrepurchaseofcommonstock-2026",
+          "aapl-paymentsofdividends-2025",
+          "aapl-paymentsofdividends-2026",
+          "aapl-paymentstoacquirepropertyplantandequipment-2025",
+          "aapl-paymentstoacquirepropertyplantandequipment-2026",
+          "aapl-researchanddevelopmentexpense-2025",
+          "aapl-researchanddevelopmentexpense-2026",
+          "aapl-sharebasedcompensation-2026",
+          "aapl-stockholdersequity-2025",
+          "aapl-stockholdersequity-2026",
+          "msft-accountsreceivablenetcurrent-2025",
+          "msft-accountsreceivablenetcurrent-2026",
+          "msft-assets-2025",
+          "msft-assets-2026",
+          "msft-costofgoodsandservicessold-2025",
+          "msft-costofgoodsandservicessold-2026",
+          "msft-grossprofit-2025",
+          "msft-grossprofit-2026",
+          "msft-incometaxexpensebenefit-2025",
+          "msft-incometaxexpensebenefit-2026",
+          "msft-inventorynet-2025",
+          "msft-inventorynet-2026",
+          "msft-liabilities-2025",
+          "msft-liabilities-2026",
+          "msft-netcashprovidedbyusedinoperatingactivities-2025",
+          "msft-netcashprovidedbyusedinoperatingactivities-2026",
+          "msft-netincomeloss-2025",
+          "msft-netincomeloss-2026",
+          "msft-operatingincomeloss-2025",
+          "msft-operatingincomeloss-2026",
+          "msft-paymentsforrepurchaseofcommonstock-2025",
+          "msft-paymentsforrepurchaseofcommonstock-2026",
+          "msft-paymentstoacquirepropertyplantandequipment-2025",
+          "msft-paymentstoacquirepropertyplantandequipment-2026",
+          "msft-revenuefromcontractwithcustomerexcludingassessedtax-2025",
+          "msft-revenuefromcontractwithcustomerexcludingassessedtax-2026",
+          "msft-stockholdersequity-2025",
+          "msft-stockholdersequity-2026",
+          "aapl-manufacturing-locations",
+          "aapl-headcount",
+          "aapl-single-source",
+          "msft-headcount",
+          "msft-openai",
+          "msft-azure-growth",
+          "msft-unstarted-leases",
+          "msft-ai-risk",
+          "msft-dividends"
+        ],
+        "vector": [
+          "aapl-accountsreceivablenetcurrent-2025",
+          "aapl-accountsreceivablenetcurrent-2026",
+          "aapl-assets-2025",
+          "aapl-assets-2026",
+          "aapl-cashandcashequivalentsatcarryingvalue-2026",
+          "aapl-costofgoodsandservicessold-2026",
+          "aapl-liabilities-2025",
+          "aapl-liabilities-2026",
+          "aapl-netcashprovidedbyusedinoperatingactivities-2025",
+          "aapl-netcashprovidedbyusedinoperatingactivities-2026",
+          "aapl-netincomeloss-2025",
+          "aapl-netincomeloss-2026",
+          "aapl-operatingincomeloss-2025",
+          "aapl-operatingincomeloss-2026",
+          "aapl-paymentsforrepurchaseofcommonstock-2025",
+          "aapl-paymentsforrepurchaseofcommonstock-2026",
+          "aapl-paymentsofdividends-2025",
+          "aapl-paymentsofdividends-2026",
+          "aapl-paymentstoacquirepropertyplantandequipment-2025",
+          "aapl-paymentstoacquirepropertyplantandequipment-2026",
+          "aapl-stockholdersequity-2025",
+          "msft-accountsreceivablenetcurrent-2025",
+          "msft-accountsreceivablenetcurrent-2026",
+          "msft-costofgoodsandservicessold-2025",
+          "msft-costofgoodsandservicessold-2026",
+          "msft-liabilities-2025",
+          "msft-liabilities-2026",
+          "msft-netcashprovidedbyusedinoperatingactivities-2025",
+          "msft-netcashprovidedbyusedinoperatingactivities-2026",
+          "msft-paymentsforrepurchaseofcommonstock-2025",
+          "msft-paymentsforrepurchaseofcommonstock-2026",
+          "msft-paymentstoacquirepropertyplantandequipment-2025",
+          "msft-paymentstoacquirepropertyplantandequipment-2026",
+          "msft-stockholdersequity-2025",
+          "aapl-commercial-paper",
+          "msft-openai"
+        ],
+        "hybrid": [
+          "aapl-accountsreceivablenetcurrent-2025",
+          "aapl-accountsreceivablenetcurrent-2026",
+          "aapl-assets-2025",
+          "aapl-assets-2026",
+          "aapl-inventorynet-2025",
+          "aapl-liabilities-2025",
+          "aapl-liabilities-2026",
+          "aapl-netincomeloss-2025",
+          "aapl-netincomeloss-2026",
+          "aapl-operatingincomeloss-2025",
+          "aapl-paymentsforrepurchaseofcommonstock-2025",
+          "aapl-paymentsforrepurchaseofcommonstock-2026",
+          "aapl-paymentsofdividends-2025",
+          "aapl-paymentsofdividends-2026",
+          "aapl-paymentstoacquirepropertyplantandequipment-2025",
+          "aapl-paymentstoacquirepropertyplantandequipment-2026",
+          "msft-accountsreceivablenetcurrent-2025",
+          "msft-accountsreceivablenetcurrent-2026",
+          "msft-assets-2025",
+          "msft-assets-2026",
+          "msft-inventorynet-2025",
+          "msft-inventorynet-2026",
+          "msft-liabilities-2025",
+          "msft-liabilities-2026",
+          "msft-netincomeloss-2025",
+          "msft-netincomeloss-2026",
+          "msft-paymentsforrepurchaseofcommonstock-2025",
+          "msft-paymentsforrepurchaseofcommonstock-2026",
+          "msft-paymentstoacquirepropertyplantandequipment-2025",
+          "msft-paymentstoacquirepropertyplantandequipment-2026",
+          "aapl-manufacturing-locations",
+          "aapl-headcount",
+          "msft-openai"
+        ],
+        "hybrid_rerank": [
+          "aapl-accountsreceivablenetcurrent-2025",
+          "aapl-accountsreceivablenetcurrent-2026",
+          "aapl-assets-2025",
+          "aapl-assets-2026",
+          "aapl-netincomeloss-2025",
+          "aapl-netincomeloss-2026",
+          "aapl-paymentsforrepurchaseofcommonstock-2025",
+          "aapl-paymentsforrepurchaseofcommonstock-2026",
+          "aapl-paymentsofdividends-2025",
+          "aapl-paymentsofdividends-2026",
+          "aapl-paymentstoacquirepropertyplantandequipment-2025",
+          "aapl-paymentstoacquirepropertyplantandequipment-2026",
+          "msft-accountsreceivablenetcurrent-2025",
+          "msft-accountsreceivablenetcurrent-2026",
+          "msft-assets-2025",
+          "msft-assets-2026",
+          "msft-costofgoodsandservicessold-2025",
+          "msft-costofgoodsandservicessold-2026",
+          "msft-inventorynet-2025",
+          "msft-inventorynet-2026",
+          "msft-liabilities-2025",
+          "msft-liabilities-2026",
+          "msft-paymentsforrepurchaseofcommonstock-2025",
+          "msft-paymentsforrepurchaseofcommonstock-2026",
+          "msft-paymentstoacquirepropertyplantandequipment-2025",
+          "msft-paymentstoacquirepropertyplantandequipment-2026",
+          "msft-revenuefromcontractwithcustomerexcludingassessedtax-2025",
+          "aapl-commercial-paper"
+        ]
+      }
+    }
+  }
+}

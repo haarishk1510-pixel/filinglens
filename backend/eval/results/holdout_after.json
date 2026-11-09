@@ -1,0 +1,1143 @@
+{
+  "date": "2026-11-09",
+  "filings": [
+    "GOOGL",
+    "KO",
+    "NVDA",
+    "WMT"
+  ],
+  "questions": {
+    "figure": 117,
+    "narrative": 0
+  },
+  "skipped": [],
+  "scopes": {
+    "one_filing": {
+      "overall": {
+        "keyword": {
+          "questions": 117,
+          "hit@1": {
+            "value": 0.1111111111111111,
+            "ci95": [
+              0.05982905982905983,
+              0.17094017094017094
+            ]
+          },
+          "hit@3": {
+            "value": 0.24786324786324787,
+            "ci95": [
+              0.17094017094017094,
+              0.3247863247863248
+            ]
+          },
+          "hit@5": {
+            "value": 0.36752136752136755,
+            "ci95": [
+              0.28205128205128205,
+              0.46153846153846156
+            ]
+          },
+          "hit@10": {
+            "value": 0.4444444444444444,
+            "ci95": [
+              0.35876068376068376,
+              0.5384615384615384
+            ]
+          },
+          "mrr": 0.20149233482566817,
+          "latency_ms": {
+            "median": 0.2688749991648365,
+            "p95": 0.4364414002338889
+          }
+        },
+        "vector": {
+          "questions": 117,
+          "hit@1": {
+            "value": 0.29914529914529914,
+            "ci95": [
+              0.21367521367521367,
+              0.38461538461538464
+            ]
+          },
+          "hit@3": {
+            "value": 0.42735042735042733,
+            "ci95": [
+              0.3416666666666667,
+              0.5213675213675214
+            ]
+          },
+          "hit@5": {
+            "value": 0.5299145299145299,
+            "ci95": [
+              0.4358974358974359,
+              0.6153846153846154
+            ]
+          },
+          "hit@10": {
+            "value": 0.6495726495726496,
+            "ci95": [
+              0.5641025641025641,
+              0.7350427350427351
+            ]
+          },
+          "mrr": 0.39544498711165377,
+          "latency_ms": {
+            "median": 3.973708000557963,
+            "p95": 4.958383001940091
+          }
+        },
+        "hybrid": {
+          "questions": 117,
+          "hit@1": {
+            "value": 0.3076923076923077,
+            "ci95": [
+              0.2222222222222222,
+              0.39316239316239315
+            ]
+          },
+          "hit@3": {
+            "value": 0.5042735042735043,
+            "ci95": [
+              0.4188034188034188,
+              0.5982905982905983
+            ]
+          },
+          "hit@5": {
+            "value": 0.5470085470085471,
+            "ci95": [
+              0.46153846153846156,
+              0.6326923076923066
+            ]
+          },
+          "hit@10": {
+            "value": 0.7350427350427351,
+            "ci95": [
+              0.6579059829059829,
+              0.811965811965812
+            ]
+          },
+          "mrr": 0.4277336860670194,
+          "latency_ms": {
+            "median": 5.421540998213459,
+            "p95": 6.698683799186254
+          }
+        },
+        "hybrid_rerank": {
+          "questions": 117,
+          "hit@1": {
+            "value": 0.3247863247863248,
+            "ci95": [
+              0.24786324786324787,
+              0.41025641025641024
+            ]
+          },
+          "hit@3": {
+            "value": 0.5299145299145299,
+            "ci95": [
+              0.4444444444444444,
+              0.6239316239316239
+            ]
+          },
+          "hit@5": {
+            "value": 0.6324786324786325,
+            "ci95": [
+              0.5470085470085471,
+              0.717948717948718
+            ]
+          },
+          "hit@10": {
+            "value": 0.7863247863247863,
+            "ci95": [
+              0.7094017094017094,
+              0.8632478632478633
+            ]
+          },
+          "mrr": 0.4544464794464794,
+          "latency_ms": {
+            "median": 1135.4265829977521,
+            "p95": 1200.0387248001061
+          }
+        }
+      },
+      "figure": {
+        "keyword": {
+          "questions": 117,
+          "hit@1": {
+            "value": 0.1111111111111111,
+            "ci95": [
+              0.05982905982905983,
+              0.17094017094017094
+            ]
+          },
+          "hit@3": {
+            "value": 0.24786324786324787,
+            "ci95": [
+              0.17094017094017094,
+              0.3247863247863248
+            ]
+          },
+          "hit@5": {
+            "value": 0.36752136752136755,
+            "ci95": [
+              0.28205128205128205,
+              0.46153846153846156
+            ]
+          },
+          "hit@10": {
+            "value": 0.4444444444444444,
+            "ci95": [
+              0.35876068376068376,
+              0.5384615384615384
+            ]
+          },
+          "mrr": 0.20149233482566817
+        },
+        "vector": {
+          "questions": 117,
+          "hit@1": {
+            "value": 0.29914529914529914,
+            "ci95": [
+              0.21367521367521367,
+              0.38461538461538464
+            ]
+          },
+          "hit@3": {
+            "value": 0.42735042735042733,
+            "ci95": [
+              0.3416666666666667,
+              0.5213675213675214
+            ]
+          },
+          "hit@5": {
+            "value": 0.5299145299145299,
+            "ci95": [
+              0.4358974358974359,
+              0.6153846153846154
+            ]
+          },
+          "hit@10": {
+            "value": 0.6495726495726496,
+            "ci95": [
+              0.5641025641025641,
+              0.7350427350427351
+            ]
+          },
+          "mrr": 0.39544498711165377
+        },
+        "hybrid": {
+          "questions": 117,
+          "hit@1": {
+            "value": 0.3076923076923077,
+            "ci95": [
+              0.2222222222222222,
+              0.39316239316239315
+            ]
+          },
+          "hit@3": {
+            "value": 0.5042735042735043,
+            "ci95": [
+              0.4188034188034188,
+              0.5982905982905983
+            ]
+          },
+          "hit@5": {
+            "value": 0.5470085470085471,
+            "ci95": [
+              0.46153846153846156,
+              0.6326923076923066
+            ]
+          },
+          "hit@10": {
+            "value": 0.7350427350427351,
+            "ci95": [
+              0.6579059829059829,
+              0.811965811965812
+            ]
+          },
+          "mrr": 0.4277336860670194
+        },
+        "hybrid_rerank": {
+          "questions": 117,
+          "hit@1": {
+            "value": 0.3247863247863248,
+            "ci95": [
+              0.24786324786324787,
+              0.41025641025641024
+            ]
+          },
+          "hit@3": {
+            "value": 0.5299145299145299,
+            "ci95": [
+              0.4444444444444444,
+              0.6239316239316239
+            ]
+          },
+          "hit@5": {
+            "value": 0.6324786324786325,
+            "ci95": [
+              0.5470085470085471,
+              0.717948717948718
+            ]
+          },
+          "hit@10": {
+            "value": 0.7863247863247863,
+            "ci95": [
+              0.7094017094017094,
+              0.8632478632478633
+            ]
+          },
+          "mrr": 0.4544464794464794
+        }
+      },
+      "narrative": {},
+      "vs_vector": {
+        "keyword": {
+          "k": 5,
+          "difference": -0.1623931623931624,
+          "ci95": [
+            -0.2564102564102564,
+            -0.06837606837606838
+          ]
+        },
+        "vector": {
+          "k": 5,
+          "difference": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "hybrid": {
+          "k": 5,
+          "difference": 0.017094017094017096,
+          "ci95": [
+            -0.06837606837606838,
+            0.09401709401709402
+          ]
+        },
+        "hybrid_rerank": {
+          "k": 5,
+          "difference": 0.10256410256410256,
+          "ci95": [
+            0.02564102564102564,
+            0.1794871794871795
+          ]
+        }
+      },
+      "misses": {
+        "keyword": [
+          "nvda-accountsreceivablenetcurrent-2025",
+          "nvda-accountsreceivablenetcurrent-2026",
+          "nvda-assets-2025",
+          "nvda-assets-2026",
+          "nvda-costofrevenue-2025",
+          "nvda-costofrevenue-2026",
+          "nvda-grossprofit-2025",
+          "nvda-grossprofit-2026",
+          "nvda-incometaxexpensebenefit-2025",
+          "nvda-incometaxexpensebenefit-2026",
+          "nvda-inventorynet-2025",
+          "nvda-inventorynet-2026",
+          "nvda-liabilities-2025",
+          "nvda-liabilities-2026",
+          "nvda-netincomeloss-2026",
+          "nvda-operatingincomeloss-2025",
+          "nvda-operatingincomeloss-2026",
+          "nvda-paymentsforrepurchaseofcommonstock-2025",
+          "nvda-paymentsforrepurchaseofcommonstock-2026",
+          "nvda-sharebasedcompensation-2026",
+          "nvda-stockholdersequity-2025",
+          "nvda-stockholdersequity-2026",
+          "googl-accountsreceivablenetcurrent-2024",
+          "googl-accountsreceivablenetcurrent-2025",
+          "googl-assets-2024",
+          "googl-assets-2025",
+          "googl-liabilities-2024",
+          "googl-liabilities-2025",
+          "googl-netcashprovidedbyusedinoperatingactivities-2025",
+          "googl-netincomeloss-2024",
+          "googl-netincomeloss-2025",
+          "googl-paymentsforrepurchaseofcommonstock-2024",
+          "googl-paymentsforrepurchaseofcommonstock-2025",
+          "googl-paymentsofdividends-2024",
+          "googl-paymentsofdividends-2025",
+          "googl-paymentstoacquirepropertyplantandequipment-2024",
+          "googl-paymentstoacquirepropertyplantandequipment-2025",
+          "googl-revenuefromcontractwithcustomerexcludingassessedtax-2024",
+          "googl-sharebasedcompensation-2024",
+          "googl-sharebasedcompensation-2025",
+          "googl-stockholdersequity-2024",
+          "googl-stockholdersequity-2025",
+          "wmt-assets-2025",
+          "wmt-assets-2026",
+          "wmt-cashandcashequivalentsatcarryingvalue-2025",
+          "wmt-cashandcashequivalentsatcarryingvalue-2026",
+          "wmt-costofrevenue-2025",
+          "wmt-costofrevenue-2026",
+          "wmt-inventorynet-2025",
+          "wmt-inventorynet-2026",
+          "wmt-netcashprovidedbyusedinoperatingactivities-2025",
+          "wmt-netcashprovidedbyusedinoperatingactivities-2026",
+          "wmt-netincomeloss-2025",
+          "wmt-netincomeloss-2026",
+          "wmt-operatingincomeloss-2025",
+          "wmt-operatingincomeloss-2026",
+          "wmt-revenuefromcontractwithcustomerexcludingassessedtax-2025",
+          "wmt-revenuefromcontractwithcustomerexcludingassessedtax-2026",
+          "wmt-stockholdersequity-2025",
+          "wmt-stockholdersequity-2026",
+          "ko-accountsreceivablenetcurrent-2024",
+          "ko-accountsreceivablenetcurrent-2025",
+          "ko-assets-2024",
+          "ko-assets-2025",
+          "ko-costofgoodsandservicessold-2024",
+          "ko-costofgoodsandservicessold-2025",
+          "ko-grossprofit-2024",
+          "ko-grossprofit-2025",
+          "ko-inventorynet-2024",
+          "ko-inventorynet-2025",
+          "ko-netincomeloss-2024",
+          "ko-netincomeloss-2025",
+          "ko-paymentsforrepurchaseofcommonstock-2024",
+          "ko-paymentsforrepurchaseofcommonstock-2025"
+        ],
+        "vector": [
+          "nvda-accountsreceivablenetcurrent-2025",
+          "nvda-accountsreceivablenetcurrent-2026",
+          "nvda-assets-2025",
+          "nvda-assets-2026",
+          "nvda-costofrevenue-2025",
+          "nvda-costofrevenue-2026",
+          "nvda-grossprofit-2025",
+          "nvda-grossprofit-2026",
+          "nvda-liabilities-2025",
+          "nvda-liabilities-2026",
+          "nvda-netincomeloss-2025",
+          "nvda-operatingincomeloss-2025",
+          "nvda-paymentsforrepurchaseofcommonstock-2025",
+          "nvda-paymentsforrepurchaseofcommonstock-2026",
+          "nvda-paymentsofdividends-2025",
+          "nvda-stockholdersequity-2025",
+          "nvda-stockholdersequity-2026",
+          "googl-accountsreceivablenetcurrent-2024",
+          "googl-accountsreceivablenetcurrent-2025",
+          "googl-assets-2024",
+          "googl-assets-2025",
+          "googl-cashandcashequivalentsatcarryingvalue-2024",
+          "googl-cashandcashequivalentsatcarryingvalue-2025",
+          "googl-liabilities-2024",
+          "googl-liabilities-2025",
+          "googl-netincomeloss-2024",
+          "googl-paymentsforrepurchaseofcommonstock-2024",
+          "googl-paymentsforrepurchaseofcommonstock-2025",
+          "googl-paymentsofdividends-2024",
+          "googl-paymentsofdividends-2025",
+          "googl-paymentstoacquirepropertyplantandequipment-2024",
+          "googl-paymentstoacquirepropertyplantandequipment-2025",
+          "googl-sharebasedcompensation-2024",
+          "googl-sharebasedcompensation-2025",
+          "wmt-cashandcashequivalentsatcarryingvalue-2025",
+          "wmt-cashandcashequivalentsatcarryingvalue-2026",
+          "wmt-costofrevenue-2025",
+          "wmt-costofrevenue-2026",
+          "wmt-inventorynet-2025",
+          "wmt-inventorynet-2026",
+          "wmt-netincomeloss-2025",
+          "wmt-netincomeloss-2026",
+          "wmt-revenuefromcontractwithcustomerexcludingassessedtax-2025",
+          "wmt-revenuefromcontractwithcustomerexcludingassessedtax-2026",
+          "ko-accountsreceivablenetcurrent-2024",
+          "ko-accountsreceivablenetcurrent-2025",
+          "ko-assets-2024",
+          "ko-costofgoodsandservicessold-2025",
+          "ko-incometaxexpensebenefit-2024",
+          "ko-incometaxexpensebenefit-2025",
+          "ko-netcashprovidedbyusedinoperatingactivities-2024",
+          "ko-netcashprovidedbyusedinoperatingactivities-2025",
+          "ko-netincomeloss-2024",
+          "ko-netincomeloss-2025",
+          "ko-operatingincomeloss-2025"
+        ],
+        "hybrid": [
+          "nvda-accountsreceivablenetcurrent-2025",
+          "nvda-accountsreceivablenetcurrent-2026",
+          "nvda-assets-2025",
+          "nvda-assets-2026",
+          "nvda-costofrevenue-2025",
+          "nvda-costofrevenue-2026",
+          "nvda-grossprofit-2025",
+          "nvda-inventorynet-2025",
+          "nvda-inventorynet-2026",
+          "nvda-liabilities-2025",
+          "nvda-liabilities-2026",
+          "nvda-operatingincomeloss-2025",
+          "nvda-paymentsforrepurchaseofcommonstock-2025",
+          "nvda-paymentsforrepurchaseofcommonstock-2026",
+          "nvda-stockholdersequity-2025",
+          "nvda-stockholdersequity-2026",
+          "googl-accountsreceivablenetcurrent-2024",
+          "googl-accountsreceivablenetcurrent-2025",
+          "googl-assets-2024",
+          "googl-assets-2025",
+          "googl-liabilities-2024",
+          "googl-liabilities-2025",
+          "googl-netincomeloss-2024",
+          "googl-netincomeloss-2025",
+          "googl-paymentsforrepurchaseofcommonstock-2024",
+          "googl-paymentsforrepurchaseofcommonstock-2025",
+          "googl-paymentsofdividends-2025",
+          "googl-paymentstoacquirepropertyplantandequipment-2024",
+          "googl-paymentstoacquirepropertyplantandequipment-2025",
+          "googl-sharebasedcompensation-2024",
+          "googl-sharebasedcompensation-2025",
+          "googl-stockholdersequity-2024",
+          "googl-stockholdersequity-2025",
+          "wmt-cashandcashequivalentsatcarryingvalue-2025",
+          "wmt-cashandcashequivalentsatcarryingvalue-2026",
+          "wmt-costofrevenue-2025",
+          "wmt-costofrevenue-2026",
+          "wmt-inventorynet-2025",
+          "wmt-inventorynet-2026",
+          "wmt-netincomeloss-2025",
+          "wmt-netincomeloss-2026",
+          "wmt-operatingincomeloss-2025",
+          "wmt-operatingincomeloss-2026",
+          "wmt-revenuefromcontractwithcustomerexcludingassessedtax-2025",
+          "wmt-revenuefromcontractwithcustomerexcludingassessedtax-2026",
+          "ko-accountsreceivablenetcurrent-2024",
+          "ko-accountsreceivablenetcurrent-2025",
+          "ko-assets-2024",
+          "ko-assets-2025",
+          "ko-costofgoodsandservicessold-2024",
+          "ko-costofgoodsandservicessold-2025",
+          "ko-inventorynet-2024",
+          "ko-inventorynet-2025"
+        ],
+        "hybrid_rerank": [
+          "nvda-accountsreceivablenetcurrent-2025",
+          "nvda-accountsreceivablenetcurrent-2026",
+          "nvda-assets-2025",
+          "nvda-assets-2026",
+          "nvda-costofrevenue-2025",
+          "nvda-costofrevenue-2026",
+          "nvda-inventorynet-2025",
+          "nvda-inventorynet-2026",
+          "nvda-liabilities-2025",
+          "nvda-liabilities-2026",
+          "nvda-paymentsforrepurchaseofcommonstock-2025",
+          "nvda-paymentsforrepurchaseofcommonstock-2026",
+          "googl-accountsreceivablenetcurrent-2024",
+          "googl-accountsreceivablenetcurrent-2025",
+          "googl-assets-2024",
+          "googl-assets-2025",
+          "googl-liabilities-2024",
+          "googl-liabilities-2025",
+          "googl-netincomeloss-2024",
+          "googl-netincomeloss-2025",
+          "googl-paymentsforrepurchaseofcommonstock-2024",
+          "googl-paymentsforrepurchaseofcommonstock-2025",
+          "googl-paymentstoacquirepropertyplantandequipment-2024",
+          "googl-paymentstoacquirepropertyplantandequipment-2025",
+          "wmt-cashandcashequivalentsatcarryingvalue-2025",
+          "wmt-cashandcashequivalentsatcarryingvalue-2026",
+          "wmt-inventorynet-2025",
+          "wmt-inventorynet-2026",
+          "wmt-netincomeloss-2025",
+          "wmt-netincomeloss-2026",
+          "wmt-revenuefromcontractwithcustomerexcludingassessedtax-2025",
+          "wmt-revenuefromcontractwithcustomerexcludingassessedtax-2026",
+          "ko-accountsreceivablenetcurrent-2024",
+          "ko-accountsreceivablenetcurrent-2025",
+          "ko-assets-2024",
+          "ko-assets-2025",
+          "ko-costofgoodsandservicessold-2024",
+          "ko-costofgoodsandservicessold-2025",
+          "ko-incometaxexpensebenefit-2024",
+          "ko-inventorynet-2024",
+          "ko-inventorynet-2025",
+          "ko-netcashprovidedbyusedinoperatingactivities-2024",
+          "ko-netcashprovidedbyusedinoperatingactivities-2025"
+        ]
+      }
+    },
+    "all_filings": {
+      "overall": {
+        "keyword": {
+          "questions": 117,
+          "hit@1": {
+            "value": 0.06837606837606838,
+            "ci95": [
+              0.02564102564102564,
+              0.11965811965811966
+            ]
+          },
+          "hit@3": {
+            "value": 0.1282051282051282,
+            "ci95": [
+              0.06837606837606838,
+              0.18803418803418803
+            ]
+          },
+          "hit@5": {
+            "value": 0.18803418803418803,
+            "ci95": [
+              0.11965811965811966,
+              0.2564102564102564
+            ]
+          },
+          "hit@10": {
+            "value": 0.23931623931623933,
+            "ci95": [
+              0.1623931623931624,
+              0.3162393162393162
+            ]
+          },
+          "mrr": 0.11172839506172838,
+          "latency_ms": {
+            "median": 1.3027080021856818,
+            "p95": 1.7859578001662149
+          }
+        },
+        "vector": {
+          "questions": 117,
+          "hit@1": {
+            "value": 0.29914529914529914,
+            "ci95": [
+              0.21367521367521367,
+              0.38461538461538464
+            ]
+          },
+          "hit@3": {
+            "value": 0.42735042735042733,
+            "ci95": [
+              0.3416666666666667,
+              0.5213675213675214
+            ]
+          },
+          "hit@5": {
+            "value": 0.5299145299145299,
+            "ci95": [
+              0.4358974358974359,
+              0.6153846153846154
+            ]
+          },
+          "hit@10": {
+            "value": 0.6495726495726496,
+            "ci95": [
+              0.5641025641025641,
+              0.7350427350427351
+            ]
+          },
+          "mrr": 0.39544498711165377,
+          "latency_ms": {
+            "median": 4.509875001531327,
+            "p95": 5.849133599258494
+          }
+        },
+        "hybrid": {
+          "questions": 117,
+          "hit@1": {
+            "value": 0.28205128205128205,
+            "ci95": [
+              0.20512820512820512,
+              0.36752136752136755
+            ]
+          },
+          "hit@3": {
+            "value": 0.46153846153846156,
+            "ci95": [
+              0.36752136752136755,
+              0.5555555555555556
+            ]
+          },
+          "hit@5": {
+            "value": 0.5042735042735043,
+            "ci95": [
+              0.41025641025641024,
+              0.5982905982905983
+            ]
+          },
+          "hit@10": {
+            "value": 0.6324786324786325,
+            "ci95": [
+              0.5384615384615384,
+              0.717948717948718
+            ]
+          },
+          "mrr": 0.38965201465201466,
+          "latency_ms": {
+            "median": 7.756540999253048,
+            "p95": 10.271800600457935
+          }
+        },
+        "hybrid_rerank": {
+          "questions": 117,
+          "hit@1": {
+            "value": 0.3333333333333333,
+            "ci95": [
+              0.24786324786324787,
+              0.4188034188034188
+            ]
+          },
+          "hit@3": {
+            "value": 0.5213675213675214,
+            "ci95": [
+              0.42735042735042733,
+              0.6068376068376068
+            ]
+          },
+          "hit@5": {
+            "value": 0.5897435897435898,
+            "ci95": [
+              0.49572649572649574,
+              0.6837606837606838
+            ]
+          },
+          "hit@10": {
+            "value": 0.717948717948718,
+            "ci95": [
+              0.6410256410256411,
+              0.8034188034188035
+            ]
+          },
+          "mrr": 0.4453534120200787,
+          "latency_ms": {
+            "median": 1129.9707919970388,
+            "p95": 1169.6944832001464
+          }
+        }
+      },
+      "figure": {
+        "keyword": {
+          "questions": 117,
+          "hit@1": {
+            "value": 0.06837606837606838,
+            "ci95": [
+              0.02564102564102564,
+              0.11965811965811966
+            ]
+          },
+          "hit@3": {
+            "value": 0.1282051282051282,
+            "ci95": [
+              0.06837606837606838,
+              0.18803418803418803
+            ]
+          },
+          "hit@5": {
+            "value": 0.18803418803418803,
+            "ci95": [
+              0.11965811965811966,
+              0.2564102564102564
+            ]
+          },
+          "hit@10": {
+            "value": 0.23931623931623933,
+            "ci95": [
+              0.1623931623931624,
+              0.3162393162393162
+            ]
+          },
+          "mrr": 0.11172839506172838
+        },
+        "vector": {
+          "questions": 117,
+          "hit@1": {
+            "value": 0.29914529914529914,
+            "ci95": [
+              0.21367521367521367,
+              0.38461538461538464
+            ]
+          },
+          "hit@3": {
+            "value": 0.42735042735042733,
+            "ci95": [
+              0.3416666666666667,
+              0.5213675213675214
+            ]
+          },
+          "hit@5": {
+            "value": 0.5299145299145299,
+            "ci95": [
+              0.4358974358974359,
+              0.6153846153846154
+            ]
+          },
+          "hit@10": {
+            "value": 0.6495726495726496,
+            "ci95": [
+              0.5641025641025641,
+              0.7350427350427351
+            ]
+          },
+          "mrr": 0.39544498711165377
+        },
+        "hybrid": {
+          "questions": 117,
+          "hit@1": {
+            "value": 0.28205128205128205,
+            "ci95": [
+              0.20512820512820512,
+              0.36752136752136755
+            ]
+          },
+          "hit@3": {
+            "value": 0.46153846153846156,
+            "ci95": [
+              0.36752136752136755,
+              0.5555555555555556
+            ]
+          },
+          "hit@5": {
+            "value": 0.5042735042735043,
+            "ci95": [
+              0.41025641025641024,
+              0.5982905982905983
+            ]
+          },
+          "hit@10": {
+            "value": 0.6324786324786325,
+            "ci95": [
+              0.5384615384615384,
+              0.717948717948718
+            ]
+          },
+          "mrr": 0.38965201465201466
+        },
+        "hybrid_rerank": {
+          "questions": 117,
+          "hit@1": {
+            "value": 0.3333333333333333,
+            "ci95": [
+              0.24786324786324787,
+              0.4188034188034188
+            ]
+          },
+          "hit@3": {
+            "value": 0.5213675213675214,
+            "ci95": [
+              0.42735042735042733,
+              0.6068376068376068
+            ]
+          },
+          "hit@5": {
+            "value": 0.5897435897435898,
+            "ci95": [
+              0.49572649572649574,
+              0.6837606837606838
+            ]
+          },
+          "hit@10": {
+            "value": 0.717948717948718,
+            "ci95": [
+              0.6410256410256411,
+              0.8034188034188035
+            ]
+          },
+          "mrr": 0.4453534120200787
+        }
+      },
+      "narrative": {},
+      "vs_vector": {
+        "keyword": {
+          "k": 5,
+          "difference": -0.3418803418803419,
+          "ci95": [
+            -0.42735042735042733,
+            -0.2564102564102564
+          ]
+        },
+        "vector": {
+          "k": 5,
+          "difference": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "hybrid": {
+          "k": 5,
+          "difference": -0.02564102564102564,
+          "ci95": [
+            -0.1111111111111111,
+            0.05982905982905983
+          ]
+        },
+        "hybrid_rerank": {
+          "k": 5,
+          "difference": 0.05982905982905983,
+          "ci95": [
+            -0.017094017094017096,
+            0.13675213675213677
+          ]
+        }
+      },
+      "misses": {
+        "keyword": [
+          "nvda-accountsreceivablenetcurrent-2025",
+          "nvda-accountsreceivablenetcurrent-2026",
+          "nvda-assets-2025",
+          "nvda-assets-2026",
+          "nvda-cashandcashequivalentsatcarryingvalue-2025",
+          "nvda-cashandcashequivalentsatcarryingvalue-2026",
+          "nvda-costofrevenue-2025",
+          "nvda-costofrevenue-2026",
+          "nvda-grossprofit-2025",
+          "nvda-grossprofit-2026",
+          "nvda-incometaxexpensebenefit-2025",
+          "nvda-incometaxexpensebenefit-2026",
+          "nvda-inventorynet-2025",
+          "nvda-inventorynet-2026",
+          "nvda-liabilities-2025",
+          "nvda-liabilities-2026",
+          "nvda-netcashprovidedbyusedinoperatingactivities-2025",
+          "nvda-netcashprovidedbyusedinoperatingactivities-2026",
+          "nvda-netincomeloss-2025",
+          "nvda-netincomeloss-2026",
+          "nvda-operatingincomeloss-2025",
+          "nvda-operatingincomeloss-2026",
+          "nvda-paymentsforrepurchaseofcommonstock-2025",
+          "nvda-paymentsforrepurchaseofcommonstock-2026",
+          "nvda-paymentsofdividends-2025",
+          "nvda-sharebasedcompensation-2025",
+          "nvda-sharebasedcompensation-2026",
+          "nvda-stockholdersequity-2025",
+          "nvda-stockholdersequity-2026",
+          "googl-accountsreceivablenetcurrent-2024",
+          "googl-accountsreceivablenetcurrent-2025",
+          "googl-assets-2024",
+          "googl-assets-2025",
+          "googl-cashandcashequivalentsatcarryingvalue-2024",
+          "googl-cashandcashequivalentsatcarryingvalue-2025",
+          "googl-costofrevenue-2024",
+          "googl-costofrevenue-2025",
+          "googl-liabilities-2024",
+          "googl-liabilities-2025",
+          "googl-netcashprovidedbyusedinoperatingactivities-2024",
+          "googl-netcashprovidedbyusedinoperatingactivities-2025",
+          "googl-netincomeloss-2024",
+          "googl-netincomeloss-2025",
+          "googl-operatingincomeloss-2024",
+          "googl-operatingincomeloss-2025",
+          "googl-paymentsforrepurchaseofcommonstock-2024",
+          "googl-paymentsforrepurchaseofcommonstock-2025",
+          "googl-paymentsofdividends-2024",
+          "googl-paymentsofdividends-2025",
+          "googl-paymentstoacquirepropertyplantandequipment-2024",
+          "googl-paymentstoacquirepropertyplantandequipment-2025",
+          "googl-revenuefromcontractwithcustomerexcludingassessedtax-2024",
+          "googl-sharebasedcompensation-2024",
+          "googl-sharebasedcompensation-2025",
+          "googl-stockholdersequity-2024",
+          "googl-stockholdersequity-2025",
+          "wmt-assets-2025",
+          "wmt-assets-2026",
+          "wmt-cashandcashequivalentsatcarryingvalue-2025",
+          "wmt-cashandcashequivalentsatcarryingvalue-2026",
+          "wmt-costofrevenue-2025",
+          "wmt-costofrevenue-2026",
+          "wmt-incometaxexpensebenefit-2025",
+          "wmt-inventorynet-2025",
+          "wmt-inventorynet-2026",
+          "wmt-netcashprovidedbyusedinoperatingactivities-2025",
+          "wmt-netcashprovidedbyusedinoperatingactivities-2026",
+          "wmt-netincomeloss-2025",
+          "wmt-netincomeloss-2026",
+          "wmt-operatingincomeloss-2025",
+          "wmt-operatingincomeloss-2026",
+          "wmt-revenuefromcontractwithcustomerexcludingassessedtax-2025",
+          "wmt-revenuefromcontractwithcustomerexcludingassessedtax-2026",
+          "wmt-stockholdersequity-2025",
+          "wmt-stockholdersequity-2026",
+          "ko-accountsreceivablenetcurrent-2024",
+          "ko-accountsreceivablenetcurrent-2025",
+          "ko-assets-2024",
+          "ko-assets-2025",
+          "ko-costofgoodsandservicessold-2024",
+          "ko-costofgoodsandservicessold-2025",
+          "ko-grossprofit-2024",
+          "ko-grossprofit-2025",
+          "ko-incometaxexpensebenefit-2024",
+          "ko-incometaxexpensebenefit-2025",
+          "ko-inventorynet-2024",
+          "ko-inventorynet-2025",
+          "ko-netcashprovidedbyusedinoperatingactivities-2024",
+          "ko-netincomeloss-2024",
+          "ko-netincomeloss-2025",
+          "ko-operatingincomeloss-2025",
+          "ko-paymentsforrepurchaseofcommonstock-2024",
+          "ko-paymentsforrepurchaseofcommonstock-2025",
+          "ko-paymentsofdividends-2024",
+          "ko-paymentsofdividends-2025"
+        ],
+        "vector": [
+          "nvda-accountsreceivablenetcurrent-2025",
+          "nvda-accountsreceivablenetcurrent-2026",
+          "nvda-assets-2025",
+          "nvda-assets-2026",
+          "nvda-costofrevenue-2025",
+          "nvda-costofrevenue-2026",
+          "nvda-grossprofit-2025",
+          "nvda-grossprofit-2026",
+          "nvda-liabilities-2025",
+          "nvda-liabilities-2026",
+          "nvda-netincomeloss-2025",
+          "nvda-operatingincomeloss-2025",
+          "nvda-paymentsforrepurchaseofcommonstock-2025",
+          "nvda-paymentsforrepurchaseofcommonstock-2026",
+          "nvda-paymentsofdividends-2025",
+          "nvda-stockholdersequity-2025",
+          "nvda-stockholdersequity-2026",
+          "googl-accountsreceivablenetcurrent-2024",
+          "googl-accountsreceivablenetcurrent-2025",
+          "googl-assets-2024",
+          "googl-assets-2025",
+          "googl-cashandcashequivalentsatcarryingvalue-2024",
+          "googl-cashandcashequivalentsatcarryingvalue-2025",
+          "googl-liabilities-2024",
+          "googl-liabilities-2025",
+          "googl-netincomeloss-2024",
+          "googl-paymentsforrepurchaseofcommonstock-2024",
+          "googl-paymentsforrepurchaseofcommonstock-2025",
+          "googl-paymentsofdividends-2024",
+          "googl-paymentsofdividends-2025",
+          "googl-paymentstoacquirepropertyplantandequipment-2024",
+          "googl-paymentstoacquirepropertyplantandequipment-2025",
+          "googl-sharebasedcompensation-2024",
+          "googl-sharebasedcompensation-2025",
+          "wmt-cashandcashequivalentsatcarryingvalue-2025",
+          "wmt-cashandcashequivalentsatcarryingvalue-2026",
+          "wmt-costofrevenue-2025",
+          "wmt-costofrevenue-2026",
+          "wmt-inventorynet-2025",
+          "wmt-inventorynet-2026",
+          "wmt-netincomeloss-2025",
+          "wmt-netincomeloss-2026",
+          "wmt-revenuefromcontractwithcustomerexcludingassessedtax-2025",
+          "wmt-revenuefromcontractwithcustomerexcludingassessedtax-2026",
+          "ko-accountsreceivablenetcurrent-2024",
+          "ko-accountsreceivablenetcurrent-2025",
+          "ko-assets-2024",
+          "ko-costofgoodsandservicessold-2025",
+          "ko-incometaxexpensebenefit-2024",
+          "ko-incometaxexpensebenefit-2025",
+          "ko-netcashprovidedbyusedinoperatingactivities-2024",
+          "ko-netcashprovidedbyusedinoperatingactivities-2025",
+          "ko-netincomeloss-2024",
+          "ko-netincomeloss-2025",
+          "ko-operatingincomeloss-2025"
+        ],
+        "hybrid": [
+          "nvda-accountsreceivablenetcurrent-2025",
+          "nvda-accountsreceivablenetcurrent-2026",
+          "nvda-assets-2025",
+          "nvda-assets-2026",
+          "nvda-costofrevenue-2025",
+          "nvda-costofrevenue-2026",
+          "nvda-grossprofit-2025",
+          "nvda-grossprofit-2026",
+          "nvda-incometaxexpensebenefit-2025",
+          "nvda-incometaxexpensebenefit-2026",
+          "nvda-inventorynet-2025",
+          "nvda-inventorynet-2026",
+          "nvda-liabilities-2025",
+          "nvda-liabilities-2026",
+          "nvda-operatingincomeloss-2025",
+          "nvda-paymentsforrepurchaseofcommonstock-2025",
+          "nvda-paymentsforrepurchaseofcommonstock-2026",
+          "nvda-stockholdersequity-2025",
+          "nvda-stockholdersequity-2026",
+          "googl-accountsreceivablenetcurrent-2024",
+          "googl-accountsreceivablenetcurrent-2025",
+          "googl-assets-2024",
+          "googl-assets-2025",
+          "googl-liabilities-2024",
+          "googl-liabilities-2025",
+          "googl-netincomeloss-2024",
+          "googl-netincomeloss-2025",
+          "googl-paymentsforrepurchaseofcommonstock-2024",
+          "googl-paymentsforrepurchaseofcommonstock-2025",
+          "googl-paymentsofdividends-2024",
+          "googl-paymentsofdividends-2025",
+          "googl-paymentstoacquirepropertyplantandequipment-2024",
+          "googl-paymentstoacquirepropertyplantandequipment-2025",
+          "googl-sharebasedcompensation-2025",
+          "googl-stockholdersequity-2024",
+          "googl-stockholdersequity-2025",
+          "wmt-cashandcashequivalentsatcarryingvalue-2025",
+          "wmt-cashandcashequivalentsatcarryingvalue-2026",
+          "wmt-costofrevenue-2025",
+          "wmt-costofrevenue-2026",
+          "wmt-inventorynet-2025",
+          "wmt-inventorynet-2026",
+          "wmt-netincomeloss-2025",
+          "wmt-netincomeloss-2026",
+          "wmt-operatingincomeloss-2025",
+          "wmt-operatingincomeloss-2026",
+          "wmt-revenuefromcontractwithcustomerexcludingassessedtax-2025",
+          "wmt-revenuefromcontractwithcustomerexcludingassessedtax-2026",
+          "ko-accountsreceivablenetcurrent-2024",
+          "ko-accountsreceivablenetcurrent-2025",
+          "ko-assets-2024",
+          "ko-assets-2025",
+          "ko-costofgoodsandservicessold-2024",
+          "ko-costofgoodsandservicessold-2025",
+          "ko-grossprofit-2024",
+          "ko-grossprofit-2025",
+          "ko-inventorynet-2024",
+          "ko-inventorynet-2025"
+        ],
+        "hybrid_rerank": [
+          "nvda-accountsreceivablenetcurrent-2025",
+          "nvda-accountsreceivablenetcurrent-2026",
+          "nvda-assets-2025",
+          "nvda-costofrevenue-2025",
+          "nvda-costofrevenue-2026",
+          "nvda-grossprofit-2025",
+          "nvda-grossprofit-2026",
+          "nvda-inventorynet-2025",
+          "nvda-inventorynet-2026",
+          "nvda-liabilities-2025",
+          "nvda-liabilities-2026",
+          "nvda-paymentsforrepurchaseofcommonstock-2025",
+          "nvda-paymentsforrepurchaseofcommonstock-2026",
+          "googl-accountsreceivablenetcurrent-2024",
+          "googl-accountsreceivablenetcurrent-2025",
+          "googl-assets-2024",
+          "googl-assets-2025",
+          "googl-liabilities-2024",
+          "googl-liabilities-2025",
+          "googl-netincomeloss-2024",
+          "googl-netincomeloss-2025",
+          "googl-paymentsforrepurchaseofcommonstock-2024",
+          "googl-paymentsforrepurchaseofcommonstock-2025",
+          "googl-paymentsofdividends-2024",
+          "googl-paymentsofdividends-2025",
+          "googl-paymentstoacquirepropertyplantandequipment-2024",
+          "googl-paymentstoacquirepropertyplantandequipment-2025",
+          "googl-sharebasedcompensation-2025",
+          "wmt-cashandcashequivalentsatcarryingvalue-2025",
+          "wmt-cashandcashequivalentsatcarryingvalue-2026",
+          "wmt-costofrevenue-2025",
+          "wmt-costofrevenue-2026",
+          "wmt-inventorynet-2025",
+          "wmt-inventorynet-2026",
+          "wmt-netincomeloss-2025",
+          "wmt-netincomeloss-2026",
+          "wmt-revenuefromcontractwithcustomerexcludingassessedtax-2025",
+          "wmt-revenuefromcontractwithcustomerexcludingassessedtax-2026",
+          "ko-accountsreceivablenetcurrent-2024",
+          "ko-accountsreceivablenetcurrent-2025",
+          "ko-assets-2024",
+          "ko-assets-2025",
+          "ko-costofgoodsandservicessold-2024",
+          "ko-costofgoodsandservicessold-2025",
+          "ko-inventorynet-2024",
+          "ko-inventorynet-2025",
+          "ko-netcashprovidedbyusedinoperatingactivities-2024",
+          "ko-netcashprovidedbyusedinoperatingactivities-2025"
+        ]
+      }
+    }
+  }
+}

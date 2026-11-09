@@ -1,0 +1,14 @@
+anthropic>=1.0
+beautifulsoup4>=4.12
+fastapi>=0.115
+fastembed>=0.5
+lxml>=5.3
+numpy>=2.0
+python-dotenv>=1.0
+rank-bm25>=0.2.2
+requests>=2.32
+uvicorn>=0.32
+pytest>=8.3
+langgraph>=1.0
+openai>=1.50
+pymupdf>=1.25

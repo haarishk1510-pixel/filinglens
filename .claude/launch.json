@@ -1,0 +1,29 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "ollama",
+      "runtimeExecutable": "/opt/homebrew/bin/ollama",
+      "runtimeArgs": ["serve"],
+      "port": 11434
+    },
+    {
+      "name": "api",
+      "runtimeExecutable": "/Users/haarishkumars/ML Project/backend/.venv/bin/python",
+      "runtimeArgs": ["-m", "uvicorn", "filinglens.api:app", "--port", "8000", "--app-dir", "/Users/haarishkumars/ML Project/backend"],
+      "port": 8000
+    },
+    {
+      "name": "web",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "/Users/haarishkumars/ML Project/frontend", "run", "dev"],
+      "port": 3000
+    },
+    {
+      "name": "demo",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "3100", "--directory", "/Users/haarishkumars/ML Project/frontend/out"],
+      "port": 3100
+    }
+  ]
+}
